@@ -10,8 +10,8 @@ const Titulos = () => {
     <section>
       <h2>Hola mi amigo!</h2>
       <h3>{estado}</h3>
-      <button onClick={()=> setEstado("Cambio el Estado")}>Click Aquí!</button>
-      <button className="btn-primary" onClick={()=> setEstado(numero -1 )}>Cambiar Estado</button>
+      <button onClick={()=> setEstado("Cambio el Estado")}>Cambiar</button>
+      <button className="btn-primary" onClick={()=> setEstado("From Changed State")}>Volver como estaba</button>
     </section>
   );
 };
